@@ -1,5 +1,24 @@
-Tictactoe
+Picross
 =========
+
+
+Gamerules:
+
+Nonograms, also known as Hanjie or Griddlers, are picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture. 
+In this puzzle type, the numbers are a form of discrete tomography that measures how many unbroken lines of filled-in squares there are in any given row or column. 
+
+For example, a clue of "5 2 1" would mean there are sets of five, two, and one filled squares, in that order, with at least one blank square between successive groups.
+
+
+
+
+
+
+
+
+
+
+
 A simple server based game built with
 [Ring](https://github.com/ring-clojure),
 [Compojure](https://github.com/weavejester/compojure),
@@ -9,8 +28,8 @@ was borrowed from [Luminus](http://www.luminusweb.net/).
 
 # Download and run: 
 
-    $ git clone git@github.com:borkdude/tictactoe.git
-    $ cd tictactoe
+    $ git clone git@github.com:SniC/picross-clj.git
+    $ cd picross-clj
     $ lein ring server
     
 A browser window will open and you'll be able to play.
@@ -25,11 +44,3 @@ A browser window will open and you'll be able to play.
     $ git push heroku master    
 
 More, see [Heroku](https://blog.heroku.com/archives/2011/7/5/clojure_on_heroku).
-
-# TODO or student assignments
-
-* Make a ClojureScript variation of this game. How much of the code can be
-re-used?
-* Add Kerodon tests
-* Add AI so player can play against the computer
-* Think of more stuff to do
